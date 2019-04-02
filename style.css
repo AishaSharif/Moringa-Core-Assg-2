@@ -56,9 +56,15 @@ body{
     margin-left: 50%;
     margin-top: 10%;
 }
-.men{
+.men, .women{
     width: 90%;
     margin-left: 10%;
+}
+.men.product-column{
+    padding: 2% 8% 2% 8%
+}
+.women{
+    margin-bottom: 5%;
 }
 h3{
     text-transform: uppercase;
@@ -70,13 +76,47 @@ h3{
 }
 .product-column{
     display: inline-block;
-    padding: 7%;
+    padding: 2% 6% 2% 6%;
     background-color: #f7f7f7;
     margin: 2%;
 }
+.product-column.first{
+    border: 5px solid burlywood;
+    padding: 3.5% 7% 2% 7%;
+}
+.men-second, .men-third{
+    padding: 3% 8% 2% 8%;
+}
 .product-column img{
-    width: 100%;
-    height: 200px;
+    width: 70%;
+    height: auto;
+    margin: 30%;
+    margin-left: 0;
+}
+.product-column.women-second img {
+    padding-top: 20%;
+    padding-bottom: 16%;
+}
+.size, .item, .price{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 1px;
+    margin-left: -50px;
+}
+.colors{
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    color: green
+}
+.item{
+    color: burlywood
+}
+.price{
+    float: right;
+    margin: 0;
+    margin-right: -20px;
 }
 .about-us{
     background-image: url(assets/backgrounds/about.jpg);
