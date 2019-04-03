@@ -1,4 +1,2 @@
-# Assignments
-Assignment One:
-Create the website shown on the page_guide.jpg
-
+# Moringa-Core-Assg-2
+Moringa Core Assignment Two

@@ -57,24 +57,28 @@ body{
 }
 .mouse-click{
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .products{
-    background-color: #aaa;
+    background-color: #b6b2ae;
     padding: 4%;
 }
 .products-filter{
-    padding-left: 5%;
+    padding-left: 8%;
 }
 .products span{
     font-weight: 600;
     padding-right: 3%;
 }
+/* :checked{
+    border: 1px solid burlywood;
+    background-color: #fff;
+} */
 .products button{
     margin-top: -2%;
     padding: 1.1%;
     color: #fff;
-    background-color: brown;
+    background-color: rgb(105, 40, 9);
     border: transparent;
     border-radius: 3px;
     float: right;
@@ -104,6 +108,21 @@ body{
 }
 .men.product-column{
     padding: 2% 8% 2% 8%
+}
+.green, .blue, .grey{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.grey{
+    background-color: #444;
 }
 .women{
     margin-bottom: 5%;
@@ -148,10 +167,9 @@ h3{
     margin-left: -50px;
 }
 .colors{
-    width: 5px;
-    height: 5px;
-    border-radius: 2.5px;
-    color: green
+    float: right;
+    margin: 0;
+    margin-right: -20px;
 }
 .item{
     color: burlywood
