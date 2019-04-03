@@ -25,11 +25,14 @@ body{
     color: #fff;
     font-weight: 400;
     font-size: 400%;
-    margin: 5%;
+}
+.logo{
+    padding: 4% 0 0 3%;
 }
 .nav ul{
     position: absolute;
     right: 10%;
+    margin-top: -3%;
 }
 .nav ul li{
     display: inline-block;
@@ -56,9 +59,48 @@ body{
     margin-left: 50%;
     margin-top: 10%;
 }
+.products{
+    background-color: #aaa;
+    padding: 4%;
+}
+.products-filter{
+    padding-left: 5%;
+}
+.products span{
+    font-weight: 600;
+    padding-right: 3%;
+}
+.products button{
+    margin-top: -2%;
+    padding: 1.1%;
+    color: #fff;
+    background-color: brown;
+    border: transparent;
+    border-radius: 3px;
+    float: right;
+    font-weight: 600;
+    font-size: 75%;
+    letter-spacing: 1px;
+}
+#men{
+    padding: 5%;
+}
+/* .products input{
+    padding-right: 5%;
+} */
 .men, .women{
     width: 90%;
     margin-left: 10%;
+}
+.men-title::after,
+.women-title::after {
+    display: block;
+    height: 2px;
+    background-color: #bbb;
+    content: " ";
+    width: 81%;
+    margin: 0 auto;
+    margin-top: -15px;
 }
 .men.product-column{
     padding: 2% 8% 2% 8%
@@ -73,6 +115,7 @@ h3{
     color: #666;
     padding-left: 2%;
     font-weight: 600;
+    padding-bottom: 3%;
 }
 .product-column{
     display: inline-block;
