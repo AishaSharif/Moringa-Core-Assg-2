@@ -9,7 +9,6 @@ body{
     font-weight: 300;
     color: #333;
     background-color: #fff;
-    padding: 2%;
 }
 .header{
     background-image: url(assets/backgrounds/hero.jpg);
@@ -96,6 +95,9 @@ body{
 .men, .women{
     width: 90%;
     margin-left: 10%;
+}
+.men-title{
+    width: 100%
 }
 .men-title::after,
 .women-title::after {
@@ -263,4 +265,11 @@ h3{
     font-size: 90%;
     color: #eee;
     padding-bottom: 2%;
+}
+
+@media (max-width: 800px) {
+    .size{
+        font-size: 70%;
+        margin-left: -20%;
+    }
 }

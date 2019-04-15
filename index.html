@@ -5,156 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yolomy Clothing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <header class="header">
-        <img src="assets/logo/logo.png" alt="logo" class="logo">
-        <!-- <span class="title">Yolomy</span> -->
-        <nav class="nav">
-            <ul>
-                <li>Home</li>
-                <li>Products</li>
-                <li><img src="assets/logo/shop.png" alt="Shop" class="cart"></li>
-            </ul>
-        </nav>
-        <div class="heading">
-            <h1 class="primary-heading">
-                Our clothing, Your comfort
-            </h1>
-            <h2 class="secondary-heading">
-                We understand that you need to look great and feel great.
-                <div>It all starts with what you are wearing</div>
-            </h2>
-        </div>
-        <img src="assets/mouse_click.png" alt="Mouse Click" class="mouse-click">
-    </header>
+    <div class="">
+        <header class="header">
+            <img src="assets/logo/logo.png" alt="logo" class="logo">
+            <!-- <span class="title">Yolomy</span> -->
+            <nav class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li><img src="assets/logo/shop.png" alt="Shop" class="cart"></li>
+                </ul>
+            </nav>
+            <div class="heading">
+                <h1 class="primary-heading">
+                    Our clothing, Your comfort
+                </h1>
+                <h2 class="secondary-heading">
+                    We understand that you need to look great and feel great.
+                    <div>It all starts with what you are wearing</div>
+                </h2>
+            </div>
+            <img src="assets/mouse_click.png" alt="Mouse Click" class="mouse-click">
+        </header>
 
-    <section class="products">
-        <div class="products-filter">
-            <input type="checkbox" name="men" id="men" checked> <span>MEN</span>
-            <input type="checkbox" name="women" id="women" checked > <span>WOMEN</span>
-            <input type="checkbox" name="children" id="children" > <span>CHILDREN</span>     
-        </div>
-        <button>SEE ALL PRODUCTS</button>
-    </section>
+        <section class="products">
+            <div class="products-filter">
+                <input type="checkbox" name="men" id="men" checked> <span>MEN</span>
+                <input type="checkbox" name="women" id="women" checked > <span>WOMEN</span>
+                <input type="checkbox" name="children" id="children" > <span>CHILDREN</span>     
+            </div>
+            <button>SEE ALL PRODUCTS</button>
+        </section>
 
-    <section class="men">
-        <h3 class="men-title">Men</h3>
-        <div class="row men-row">
-            <div class="product-column first">
-                <p>
-                    <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                    <span class="colors">
-                            <span class="green"></span>
-                            <span class="blue"></span>
-                            <span class="grey"></span>
-                    </span>
-                </p>
+        <section class="men">
+                <div class="row men-row">
+                    <h3 class="men-title">Men</h3>
+                    <div class="col-sm product-column first">
+                            <p>
+                                <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                                <span class="colors">
+                                        <span class="green"></span>
+                                        <span class="blue"></span>
+                                        <span class="grey"></span>
+                                </span>
+                            </p>
+        
+                            <img src="assets/products/tshirt.png" alt="t-shirt">
+                            <p>
+                                <span class="item">T-shirt</span>
+                                <span class="price">5,00&pound;</span>
+                            </p>
+                    </div>
+                    <div class="col-sm product-column men-second">
+                        <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                        <img src="assets/products/pants.png" alt="Pants">
+                        <p>
+                            <span class="item">Pants</span>
+                            <span class="price">30,00&pound;</span>
+                        </p>
+                    </div>
+                    <div class="col-sm product-column men-third">
+                        <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                        <img src="assets/products/backpack.png" alt="Backpack">
+                        <p>
+                            <span class="item">Backpack</span>
+                            <span class="price">60,00&pound;</span>
+                        </p>
+                    </div>
+                </div>
+        </section>
 
-                <img src="assets/products/tshirt.png" alt="t-shirt">
-                <p>
-                    <span class="item">T-shirt</span>
-                    <span class="price">5,00&pound;</span>
-                </p>
-            </div>
-            <div class="product-column men-second">
-                <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                <img src="assets/products/pants.png" alt="Pants">
-                <p>
-                    <span class="item">Pants</span>
-                    <span class="price">30,00&pound;</span>
-                </p>
-            </div>
-            <div class="product-column men-third">
-                <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                <img src="assets/products/backpack.png" alt="Backpack">
-                <p>
-                    <span class="item">Backpack</span>
-                    <span class="price">60,00&pound;</span>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="women">
-        <h3 class="women-title">Women</h3> 
-        <div class="row">
-            <div class="product-column">
-                <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                <img src="assets/products/giacket.png" alt="jacket">
-                <p>
-                    <span class="item">jacket</span>
-                    <span class="price">60,00&pound;</span>
-                </p>
-            </div>
-            <div class="product-column women-second">
-                <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                <img src="assets/products/trekkingshoes.png" alt="trekkingshoes"> <p>
-                    <span class="item">shoes</span>
-                    <span class="price">80,00&pound;</span>
-                </p>
-            </div>
-            <div class="product-column">
-                <span class="size">size <i class="fas fa-chevron-down"></i></span>
-                <img src="assets/products/tshirt_ladies.png" alt="ladies t-shirt">
-                <p>
-                    <span class="item">t-shirt</span>
-                    <span class="price">20,00&pound;</span>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-us">
-        <div class="about-content">
-            <h3 class="about-title">About Us</h3>
-            <p>
-                This is where high fashion clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who understand what fashion is.
-            </p>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="banner">
-            <img src="assets/social_icons/twitter_bird.png" alt="twitter">
-            <span>"SALE: Buy anything for 45% off. Use promo code YOLOMY45 when purchasing items"</span>
-        </div>
-        <div class="row">
-            <div class="column vision">
-                <h4>YOLOMY</h4>
-                <p>
-                    WE ARE YOLOMY - WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE.
-                </p>
-            </div>
-            <div class="column social">
-                <h4>We are social</h4>
-               <div class="social-row">
-                <img src="assets/social_icons/g_plus.png" alt="Google Plus">
-                <img src="assets/social_icons/facebook.png" alt="Facebook">
-                <img src="assets/social_icons/you_tube.png" alt="Youtube">
-                <img src="assets/social_icons/stumble_upon.png" alt="Stumble Upon">
-               </div>
-                <div class="social-row">
-                    <img src="assets/social_icons/skype.png" alt="Skype">
-                    <img src="assets/social_icons/flickr.png" alt="Flickr">
-                    <img src="assets/social_icons/twitter.png" alt="Twitter">
-                    <img src="assets/social_icons/pinterest.png" alt="Pinterest">
+        <!-- <section class="men">
+            <div class="row men-row">
+                <div class="product-column first">
+                    
+                </div>
+                <div class="product-column men-second">
+                    
+                </div>
+                <div class="product-column men-third">
+                    
                 </div>
             </div>
-            <div class="column footer-nav">
-                <ul>
-                    <li>CREDITS</li>
-                    <li>PRIVACY</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-                </ul>
-                <p>Yolomy: We Mean Fashion</p>
+        </section> -->
+
+        <section class="women">
+            <h3 class="women-title">Women</h3> 
+            <div class="row">
+                <div class="product-column">
+                    <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                    <img src="assets/products/giacket.png" alt="jacket">
+                    <p>
+                        <span class="item">jacket</span>
+                        <span class="price">60,00&pound;</span>
+                    </p>
+                </div>
+                <div class="product-column women-second">
+                    <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                    <img src="assets/products/trekkingshoes.png" alt="trekkingshoes"> <p>
+                        <span class="item">shoes</span>
+                        <span class="price">80,00&pound;</span>
+                    </p>
+                </div>
+                <div class="product-column">
+                    <span class="size">size <i class="fas fa-chevron-down"></i></span>
+                    <img src="assets/products/tshirt_ladies.png" alt="ladies t-shirt">
+                    <p>
+                        <span class="item">t-shirt</span>
+                        <span class="price">20,00&pound;</span>
+                    </p>
+                </div>
             </div>
-            <div class="copyright">COPYRIGHT 2019. YOLOMY INC</div>
-        </div>
-    </footer>
+        </section>
+
+        <section class="about-us">
+            <div class="about-content">
+                <h3 class="about-title">About Us</h3>
+                <p>
+                    This is where high fashion clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who understand what fashion is.
+                </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="banner">
+                <img src="assets/social_icons/twitter_bird.png" alt="twitter">
+                <span>"SALE: Buy anything for 45% off. Use promo code YOLOMY45 when purchasing items"</span>
+            </div>
+            <div class="row">
+                <div class="column vision">
+                    <h4>YOLOMY</h4>
+                    <p>
+                        WE ARE YOLOMY - WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE.
+                    </p>
+                </div>
+                <div class="column social">
+                    <h4>We are social</h4>
+                <div class="social-row">
+                    <img src="assets/social_icons/g_plus.png" alt="Google Plus">
+                    <img src="assets/social_icons/facebook.png" alt="Facebook">
+                    <img src="assets/social_icons/you_tube.png" alt="Youtube">
+                    <img src="assets/social_icons/stumble_upon.png" alt="Stumble Upon">
+                </div>
+                    <div class="social-row">
+                        <img src="assets/social_icons/skype.png" alt="Skype">
+                        <img src="assets/social_icons/flickr.png" alt="Flickr">
+                        <img src="assets/social_icons/twitter.png" alt="Twitter">
+                        <img src="assets/social_icons/pinterest.png" alt="Pinterest">
+                    </div>
+                </div>
+                <div class="column footer-nav">
+                    <ul>
+                        <li>CREDITS</li>
+                        <li>PRIVACY</li>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
+                    </ul>
+                    <p>Yolomy: We Mean Fashion</p>
+                </div>
+                <div class="copyright">COPYRIGHT 2019. YOLOMY INC</div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
