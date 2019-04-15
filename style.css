@@ -220,7 +220,6 @@ h3{
 }
 .footer .column{
     display: inline-block;
-    width: 30%;
     margin: 1%;
     margin-bottom: -2%;
 }
@@ -265,11 +264,56 @@ h3{
     font-size: 90%;
     color: #eee;
     padding-bottom: 2%;
+    background-color: #555;
 }
 
 @media (max-width: 800px) {
-    .size{
+    .size, .item, .price{
         font-size: 70%;
         margin-left: -20%;
+    }
+    .green, .blue, .grey{
+        display: none;
+    }
+    .about-content p{
+        font-size: 80%;
+        line-height: 25px;
+    }
+    .about-title{
+        font-size: 80%;
+    }
+    .banner span{
+        font-size: 90%;
+    }
+    .nav{
+        display: none;
+    }
+}
+@media (max-width: 578px){
+    .size, .item, .price{
+        font-size: 100%;
+        margin-left: 0%;
+    }
+    .product-column img{
+        width: auto;
+        margin: 15%;
+        padding: 15%;
+    }
+    .vision{
+        width: 100%;
+    }
+    .vision h4{
+        text-align: center
+    }
+    .products button{
+        margin-top: -4%;
+    }
+}
+@media (max-width: 471px){
+    .product-column img{
+        width: auto;
+        margin: 30%;
+        margin-left: 0;
+        padding: 0;
     }
 }
